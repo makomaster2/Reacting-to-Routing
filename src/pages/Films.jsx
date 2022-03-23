@@ -19,7 +19,7 @@ const Films = () => {
 					<div className='card-body'>
 						<h4 className='card-title'>{film.title}</h4>
 						<div className='card-text'>
-							{film.description.substring(1, 100)}...
+							{film.description.substring(0, 100)}...
 						</div>
 						<NavLink
 							className={'btn btn-primary'}
